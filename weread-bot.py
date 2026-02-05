@@ -37,29 +37,29 @@
 更多详细说明请访问项目仓库：https://github.com/funnyzak/weread-bot
 """
 
-import os
-import re
-import json
-import time
-import random
-import hashlib
-import logging
-import asyncio
-import urllib.parse
-import signal
-import argparse
-from datetime import datetime, timedelta
-from pathlib import Path
-from typing import Optional, Dict, Any, List, Tuple, Set
-from dataclasses import dataclass, field
-from enum import Enum
-from logging.handlers import RotatingFileHandler
+import os  # 操作系统接口（环境变量、路径等）
+import re  # 正则表达式处理
+import json  # JSON 编解码
+import time  # 时间戳与休眠
+import random  # 随机数与随机选择
+import hashlib  # 哈希/签名计算
+import logging  # 日志系统
+import asyncio  # 异步 IO 与事件循环
+import urllib.parse  # URL 编码与解析
+import signal  # 信号处理与优雅退出
+import argparse  # 命令行参数解析
+from datetime import datetime, timedelta  # 日期时间与时间间隔
+from pathlib import Path  # 现代路径对象
+from typing import Optional, Dict, Any, List, Tuple, Set  # 类型注解
+from dataclasses import dataclass, field  # 数据类与默认字段
+from enum import Enum  # 枚举类型
+from logging.handlers import RotatingFileHandler  # 轮转日志文件
 
-import yaml
-import requests
-import httpx
-from croniter import croniter
-from zoneinfo import ZoneInfo
+import yaml  # YAML 配置读写
+import requests  # 同步 HTTP 请求
+import httpx  # 现代 HTTP 客户端（含异步）
+from croniter import croniter  # Cron 表达式解析
+from zoneinfo import ZoneInfo  # 时区支持（Python 3.9+）
 
 VERSION = "0.3.5"
 REPO = "https://github.com/funnyzak/weread-bot"
