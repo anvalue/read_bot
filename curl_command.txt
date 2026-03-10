@@ -1,0 +1,19 @@
+curl 'https://weread.qq.com/web/book/read' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: zh-CN,zh;q=0.9' \
+  -H 'baggage: sentry-environment=production,sentry-release=dev-1770724961596,sentry-public_key=ed67ed71f7804a038e898ba54bd66e44,sentry-trace_id=ed882e56a7274e8b9fec95b5fbf368bd' \
+  -H 'content-type: application/json;charset=UTF-8' \
+  -b 'wr_gid=200278361; wr_fp=2769888351; wr_skey=jkwwPB5I; wr_vid=200961176; wr_ql=0; wr_rt=web%40T9flqMRUjXf2q6DK13B_AL; wr_localvid=a2232c607bfa6c98a223015; wr_name=hisaya; wr_avatar=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FPiajxSqBRaEIfNyVBP8aCiaeqzcTApHkWWib8dkIykFfurZqaFicybFSTZtI3ChlcV4SEwibyvOXpdheSR7RkND5eg8OuE9LHT1fLXCE9WQS6ozzXwyna6iauM9A%2F132; wr_gender=2' \
+  -H 'origin: https://weread.qq.com' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://weread.qq.com/web/reader/330322e05cf7d6330dfa225ka5c32a7032e1a5cdd4aa026' \
+  -H 'sec-ch-ua: "Not:A-Brand";v="99", "Google Chrome";v="145", "Chromium";v="145"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sentry-trace: ed882e56a7274e8b9fec95b5fbf368bd-826de0367a4b4eec' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36' \
+  -H 'x-wrpa-0: 66fe012300145103d7b93985ba028815dadefd8e2b119d10bbd9cdcaaca1bf802957b0e194a28d3c8c36d327e89932e951be3ffb1b7b34e3062aab767e9cb9b8,SShwbWghVFhlVsOzRMKow7gXNigcwp7Crh3CnsKNOcOiPwprwotBwprDrSMwMyJ8w7XDv8KVw6bCqSvDoBbDs3IMwqfCpn5Pwp3CocKOUirDlMOTw6jCl8OpwqbCp112wotOwqLDplozwrnDqMOnwrDCuEJ0w7TDscOIwpXDtsKTcVB4wojCm1cLwo3CusORUSjDvcO5w6jCjcO3wqDDgH3DvC/CgMO8w6LCvcK4LMK8wofDngcSV1DCgwjDmG7CpSPCscKzTcKMwpHCklvCpA9Mw7LDnnzDjMOKUsOgLMOxOsKWw4wMdMO5w6TDgVlow7YEQ8KEwolMwpnDksO4G3LDuV3DuwMvwpfCoGrDvlQdw7XCvcKCw4TDicOnPHjDiy/Cg8KaTMOBw7RcVwp7wrYywrbDtG0aw4IyWwjChDzDhX1JH8KLMhHCqcOIF8Opw4Bbw4BneSIfRgXCjzjCtmHCtx7DlnDDgUFgf8OPw7ESw55QGcKhA8Ofw5TDk8KZ,ZMOPwr08w6kCGyXCl8O7P8Olw55WG8Kja8KEE27DiXnCn8OhfBrCrEvChQ7Cmw/CkcKqwrPDjAd8GhnDrcK3w7LCmlHDq8OydcK8wrRkXsKuw5/CsEfDjw/Cp2VwwpJww7Y0SMO2ScOYwo7Dt3QtwqXCuW4xZsK/MU3Dvj0ECsKowqPCsAVfIx0pS8KoI8KfPMOEDCpDG8OYw7XCg001SsOAw4PCunYpwr/Cj8KYVsKqGVtQFW3DhMO6B8KRcVfDkjjCtUYwT8KbwqRTw4A=' \
+  --data-raw '{"appId":"wb182564874663h902195559","b":"330322e05cf7d6330dfa225","c":"a5c32a7032e1a5cdd4aa026","ci":340,"co":15608,"sm":"他咧嘴笑着从席瓦斯桌边退开，重新拿起酒壶","pr":94,"rt":24,"ts":1771324164360,"rn":248,"sg":"35cd6c82e05ed9656c39a3e8c9662703192a9b65ed286f9c9205b15a299524ff","ct":1771324164,"ps":"07c32cb07a8ed37dg015fb5","pc":"f9b325707a8ed37dg016b04","s":"8ddaa54a"}'
